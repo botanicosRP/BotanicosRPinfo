@@ -1,0 +1,78 @@
+
+.auth-container {
+  max-width: 520px;
+  margin: 25px auto;
+}
+
+.auth-container .panel {
+  margin-bottom: 14px;
+}
+
+.auth-container h1 {
+  font-size: 25px;
+}
+
+.auth-container .primary,
+.auth-container .secondary {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.field-label {
+  display: block;
+  margin-top: 12px;
+  color: #b9cbe0;
+  font-size: 12px;
+}
+
+.error {
+  color: #ff9292;
+  font-size: 13px;
+}
+
+.success {
+  color: #46d7a0;
+  font-size: 13px;
+}
+
+.citizen-card {
+  padding: 14px;
+  margin: 10px 0;
+  background: #111f30;
+  border: 1px solid #293d52;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+
+.citizen-card strong {
+  font-size: 15px;
+}
+
+.citizen-card p {
+  margin: 6px 0;
+  color: #91a7bd;
+  font-size: 12px;
+}
+
+.app-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.app-nav button {
+  flex-shrink: 0;
+}
+
+.profile-id {
+  color: #79bdff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 560px) {
+  .auth-container {
+    margin: 12px auto;
+  }
+}
